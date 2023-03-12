@@ -1,18 +1,18 @@
 ---
-vcenter_hostname: "MyVcenterIpOrFQDN-vcenter.wsm"
-vcenter_datacenter: "MyDatacenterName-Datacenter1"
-vcenter_cluster: "MyClusterName-Cluster1"
+vcenter_hostname: "MyVcenterIpOrFQDN"
+vcenter_datacenter: "MyDatacenterName"
+vcenter_cluster: "MyClusterName"
 vcenter_validate_certs: false
-vm_name: "MyVMDisplayName-centos9Test0"
+vm_name: "MyVMDisplayName"
 vm_guestid: "centos9_64Guest"
 vm_disk_gb: 10
 vm_disk_type: "thin"
-vm_disk_datastore: "MyDatastoreName-SSDDs1TiB"
+vm_disk_datastore: "MyDatastoreName"
 vm_hw_ram_mb: 4096
 vm_hw_cpu_n: 4
 vm_hw_cpu_cn: 4
 vm_hw_scsi: "paravirtual"
 vm_net_name: "VM Network"
 vm_net_type: "vmxnet3"
-vcenter_destination_folder: "MYFolderName-Testvms"
+vcenter_destination_folder: "MYFolderName"
 vm_state: "poweredoff"
