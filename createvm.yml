@@ -41,7 +41,7 @@
             unit_number: 0
             state: present
             type: iso
-            iso_path: "[{{ vm_disk_datastore }}] Files and Iso's/CentOS-Stream-9-latest-x86_64-dvd1.iso"
+            iso_path: "[{{ vm_disk_datastore }}] CentOS-Stream-9-latest-x86_64-dvd1.iso"
         hardware:
           memory_mb: "{{ vm_hw_ram_mb }}"
           num_cpus: "{{ vm_hw_cpu_n }}"
