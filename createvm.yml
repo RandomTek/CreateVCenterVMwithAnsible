@@ -50,6 +50,7 @@
         networks:
           - name: "{{ vm_net_name }}"
             device_name: "{{ vm_net_type }}"
-            mac: aa:bb:dd:aa:00:14
+            mac: "{{ vm_net_mac }}"
+            ip: "{{ vm_net_ip }}"
       delegate_to: localhost
 
