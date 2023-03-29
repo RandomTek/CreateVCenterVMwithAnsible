@@ -14,5 +14,7 @@ vm_hw_cpu_cn: 4
 vm_hw_scsi: "paravirtual"
 vm_net_name: "VM Network"
 vm_net_type: "vmxnet3"
+vm_net_mac: "MyVmMacAddress"
+vm_net_ip: "MyVmIP"
 vcenter_destination_folder: "MYFolderName"
 vm_state: "poweredoff"
