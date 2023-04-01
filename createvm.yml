@@ -51,6 +51,5 @@
           - name: "{{ vm_net_name }}"
             device_name: "{{ vm_net_type }}"
             mac: "{{ vm_net_mac }}"
-            ip: "{{ vm_net_ip }}"
       delegate_to: localhost
 
