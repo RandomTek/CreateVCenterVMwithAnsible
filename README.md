@@ -2,7 +2,7 @@
 
 Create a Virtual Machine in vCenter With Ansible
 
-The createvm.yml playbook creates a new virtual machine named "myvm" with 2 CPUs, 2048 MB of memory, and a 40 GB thin-provisioned disk. It also attaches an ISO image located at "/path/to/myiso.iso" to the CD-ROM drive of the virtual machine.
+The createvm.yml playbook creates a new virtual machine named "myvm" with 4 CPUs, 4096 MB of memory, and a 10 GB thin-provisioned disk. It also attaches an ISO image located at "/path/to/myiso.iso" to the CD-ROM drive of the virtual machine.
 
 You will need to replace the values of the variables in vars.yml file with the appropriate values for your environment. Once you run this playbook, Ansible will create the virtual machine in the remote vCenter and power it on.
 
